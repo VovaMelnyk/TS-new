@@ -6,6 +6,7 @@
 - npm install
 - npm run dev
 - TS config options
+
 - базові типи
 - Складні типи (obj, arr)
 - any
