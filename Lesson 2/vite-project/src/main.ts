@@ -313,3 +313,48 @@ import "./style.css";
 // }
 
 // type EmployeeBasicInfo = Omit<Employee, "hireDate">;
+
+interface User {
+  id: number;
+  name: string;
+  email: string;
+}
+
+// async function fetchUser(): Promise<User> {
+//   try {
+//     const response = await fetch("https://api.user.com");
+//     const user = await response.json();
+//     return user;
+//   } catch (error) {
+//     console.log("fetch error");
+//     throw error;
+//   }
+// }
+
+// async function fetchUser<T>(url: string): Promise<T> {
+//   try {
+//     const response = await fetch(url);
+//     const user: T = await response.json();
+//     return user;
+//   } catch (error) {
+//     console.log("fetch error");
+//     throw error;
+//   }
+// }
+
+
+// async function fetchUser<T>(url: string): Promise<T> {
+//   try {
+//     const response: T = await axios.get(url);
+//     return response;
+//   } catch (error) {
+//     console.log("fetch error");
+//     throw error;
+//   }
+// }
+
+// const user = {
+//   id: 1,
+//   name: "Bob",
+//   email: "user@gmail.com",
+// };
