@@ -1,5 +1,4 @@
 ```tsx
-
 // src/App.tsx
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import TodoList from './TodoList';
@@ -41,7 +40,6 @@ function App() {
 }
 
 export default App;
-
 ```
 
 ```tsx
